@@ -29,5 +29,5 @@ def scanWifi():
         #遍历后打印在附近扫描出来wifi的名称用ssid -----中文就会乱码
         print(data.ssid)
 if __name__ == '__main__':
-    # createCard()
+    #createCard()
     scanWifi()
