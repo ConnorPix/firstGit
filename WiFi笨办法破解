@@ -1,3 +1,23 @@
 1.import pywifi
   from  pywifi import const #引用常量 常量一般都是大写-
   笔记本有内置无线网卡
+def wifiStatus():
+    #创建一个无线对象
+    wifi = pywifi.PyWiFi()
+    #获取无线网卡
+    iface = wifi.interfaces()[0]
+    print(iface.name())
+    if iface.status() == const.IFACE_DISCONNECTED:
+        print("未连接")
+    elif iface.status() == const.IFACE_CONNECTED:
+        print("已连接")
+
+#扫描附近的wifi
+def wifiScan():
+    wifi = pywifi.PyWiFi()
+    iface = wifi.inerfaces()[0]
+    iface.scan()
+    results = iface.scan_results()
+    for data in results:
+        #打印扫描出来的wifi名字，中文会乱码
+        print(data.ssid)
