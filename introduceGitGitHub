@@ -1,0 +1,10 @@
+#在Pycharm中使用Git工具连接GitHub
+1.在Pycharm中连接Git工具：
+-->File-->settings-->Git-->安装Git路径下的bin目录中的git.exe
+2.将GitHub中创建的repository利用Git传入到电脑Pycharm保存本地：
+-->创建一个新的repository-->复制https连接-->Pycharm中的VCS-->Checkout From Version Console -->Git 中，名字自动保存为GitHub中创建repository的名字
+3.在GitHub中导入代码到Pycharm：
+-->在GitHub中点击Clone or download复制https链接-->到Pycharm的VCS-->Checkout From Version Console -->Git中
+4.在Pycharm中更新的代码上传到GitHub中 ：
+-->鼠标右键Git-->Add（将这段代码传给Git）-->鼠标右键Git-->Commit File-->勾选更新或者添加的文件-->Commit Message注释一下更改了那些或者版本-->Commit and push-->push-->打开GitHub刷新一下！
+5.
