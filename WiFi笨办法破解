@@ -1,0 +1,4 @@
+1.import pywifi
+  from  pywifi import const #引用常量 常量一般都是大写-
+  笔记本有内置无线网卡
+2.
