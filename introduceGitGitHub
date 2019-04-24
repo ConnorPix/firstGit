@@ -7,4 +7,7 @@
 -->在GitHub中点击Clone or download复制https链接-->到Pycharm的VCS-->Checkout From Version Console -->Git中
 4.在Pycharm中更新的代码上传到GitHub中 ：
 -->鼠标右键Git-->Add（将这段代码传给Git）-->鼠标右键Git-->Commit File-->勾选更新或者添加的文件-->Commit Message注释一下更改了那些或者版本-->Commit and push-->push-->打开GitHub刷新一下！
-5.
+5.如果在GitHub中添加了代码 在Pycharm中更新 直接Pull一下
+6.什么是branch？怎么建立branch？怎么把代码推到新的branch？
+-->在GitHub中branch中直接建立-->打开GitHub中https地址，左下角显示的是master-->点击VCS->Git->Fetch(中文取的意思)-->然后点击master再点击新的branch-->Checkout AS
+传给GitHub结果显示：在自己新建立的branch中有更新，但是在master中的branch还是原来的！
