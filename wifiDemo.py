@@ -89,7 +89,6 @@ def readPwd():
             #跳出本次循环，执行下一次循环
             continue
 
-
 #创建一个窗口对象
 window = Tk()
 #修改窗口显示的名字
