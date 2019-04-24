@@ -11,3 +11,7 @@
 6.什么是branch？怎么建立branch？怎么把代码推到新的branch？
 -->在GitHub中branch中直接建立-->打开GitHub中https地址，左下角显示的是master-->点击VCS->Git->Fetch(中文取的意思)-->然后点击master再点击新的branch-->Checkout AS
 传给GitHub结果显示：在自己新建立的branch中有更新，但是在master中的branch还是原来的！
+7.什么是PR？-->Pull_Request  也可以叫Merge-->什么是Merge？我们为什么要做这个？
+Pull Request：是将你的branch拉到Master branch 有一个汇合的作用！
+怎么将branch中的代码上传给master
+-->在GitHub中自己的branch里 点击New pull request -->说明一下 ，点击一下review的人-->等待通过
